@@ -1,0 +1,5 @@
+ProjectTitle: st-shop
+
+PageList:
+- file: page.html
+  ready: 50

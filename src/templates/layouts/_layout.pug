@@ -1,0 +1,23 @@
+include ../mixins/all
+doctype html
+html
+  head
+    include _head
+
+  body
+    //BEGIN out
+    block header
+      include ../partials/_header
+
+    block content
+      include ../partials/_main
+      
+    block footer
+      include ../partials/_footer
+    //END out
+
+    //LOAD SCRIPTS
+    block scripts
+      script(type="text/javascript" src="js/app.js")
+      script(src="https://unpkg.com/ionicons@5.2.3/dist/ionicons.js")
+      script(src="https://unpkg.com/swiper/swiper-bundle.min.js")

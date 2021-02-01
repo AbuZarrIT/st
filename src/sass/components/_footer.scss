@@ -1,0 +1,36 @@
+.footer {
+    height: 100%;
+    max-height: 430px;
+    background-color: #292d3e;
+    padding: 30px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+
+    &-info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    &-info__ulka {
+        list-style: none;
+        color: #ffffff;
+    }
+
+    &-info__li {
+        padding: 5px 0px;
+    }
+
+    &-info__link {
+        text-decoration: none;
+        color: #ffffff;
+        vertical-align: -moz-middle-with-baseline;
+
+        &:hover {
+            color: #00aced;
+        }
+    }
+}
